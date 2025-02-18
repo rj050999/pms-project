@@ -1,0 +1,29 @@
+/* General styles */
+.managers-dashboard-container {
+    width: 1500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgb(93, 39, 93) ;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+  }
+  .feedback-text {
+    color: white; /* Change to your preferred color */
+  }
+  .custom-rating .MuiRating-iconFilled {
+    color: gold !important;  /* Filled stars */
+  }
+  
+  .custom-rating .MuiRating-iconEmpty {
+    color: gray !important; /* Empty stars */
+  }
+
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .dashboard-container {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+  
